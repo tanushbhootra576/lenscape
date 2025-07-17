@@ -4,11 +4,11 @@ import LandignNew from './componets/LandingCompo/LandingNew';
 import About from './componets/About/About';
 import Gallery from './componets/Gallery/Gallery';
 import NavBar from './componets/NavBar/NavBar';
-import SidePanel from './componets/SidePanel/SidePanel'; // new
+import SidePanel from './componets/SidePanel/SidePanel'; 
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  console.log(screen.width, screen.height);
+ 
 
   const toggleMenu = () => {
     setMenuOpen((prev) => !prev);
