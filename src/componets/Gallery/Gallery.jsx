@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Gallery.css';
 
-const imageList = Array.from({ length: 39 }, (_, i) => `img (${i + 1}).jpg`);
+const imageList = Array.from({ length: 39 }, (_, i) => `img${i + 1}.jpg`);
 
 export default function Gallery() {
     const [selectedImages, setSelectedImages] = useState([]);
