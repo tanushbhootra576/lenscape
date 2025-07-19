@@ -28,7 +28,7 @@ export default function About() {
         },
 
     ];
-    const allImages = Array.from({ length: 39 }, (_, i) => `/images/img (${i + 1}).jpg`);
+    const allImages = Array.from({ length: 39 }, (_, i) => `/images/img${i + 1}.jpg`);
     const gallery = allImages.sort(() => Math.random() - 0.5).slice(0, 10);
 
 
