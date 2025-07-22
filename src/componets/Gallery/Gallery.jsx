@@ -42,7 +42,7 @@ export default function Gallery() {
             </div>
 
             <a
-                href="https://www.instagram.com/lenscape576?igsh=dTlsb3Zlb3c0eXcw"
+                href="https://www.instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="gallery-insta-button"
