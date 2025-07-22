@@ -35,7 +35,8 @@ export default function Gallery() {
             <div className="gallery-grid">
                 {selectedImages.map((img, index) => (
                     <div key={index} className="gallery-item" onClick={() => setFullImage(img)}>
-                        <img src={`/static/images/${img}`} alt="" className="gallery-image" />
+                      <img src={`/images/${img}`} alt="" className="gallery-image" />
+
                     </div>
                 ))}
             </div>
