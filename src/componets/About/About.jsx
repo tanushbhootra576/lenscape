@@ -87,7 +87,7 @@ export default function About() {
                         <p className="about-join-text">
                             Capture. Share. Inspire. Follow LenScape on Instagram and be part of our visual journey.
                         </p>
-                        <a href="https://www.instagram.com/lenscape576?igsh=dTlsb3Zlb3c0eXcw" target="_blank" rel="noopener noreferrer" className="about-join-btn">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="about-join-btn">
                             📸 Follow LenScape on Instagram
                         </a>
                     </div>
