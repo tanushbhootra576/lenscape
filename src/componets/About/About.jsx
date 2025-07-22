@@ -19,15 +19,15 @@ export default function About() {
         gsap.fromTo(joinRef.current, { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 1, delay: 1.7, ease: 'power2.out' });
     }, []);
 
-    const teamMembers = [
-        {
-            name: 'Tanush',
-            role: 'Founder & Creator',
-            img: '/LenScapeLogo.png',
-            social: 'https://www.linkedin.com/in/tanushbhootra576',
-        },
+ const teamMembers = [
+    {
+        name: 'Tanush',
+        role: 'Founder & Creator',
+        img: '/images/LenScapeLogo.png',
+        social: 'https://www.linkedin.com/in/tanushbhootra576',
+    },
+];
 
-    ];
     const allImages = Array.from({ length: 39 }, (_, i) => `/images/img${i + 1}.jpg`);
     const gallery = allImages.sort(() => Math.random() - 0.5).slice(0, 10);
 
