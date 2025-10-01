@@ -2,17 +2,17 @@
 
 This React project to showcase LandScape photos which I click through my Lens (Mobile Phone 😂).
 
-## ✨ Features
+##  Features
 
-- ⚡ Smooth navigation using React Router.
-- 🎨 Gradient animated logo and modern glassmorphic navbar.
-- 📱 **Mobile-optimized** hamburger menu with sliding side panel.
-- 💻 Fully responsive layout for desktops, tablets, and smartphones.
-- 📷 Easy-to-extend **Gallery** and **About** sections.
+-  Smooth navigation using React Router.
+-  Gradient animated logo and modern glassmorphic navbar.
+-  **Mobile-optimized** hamburger menu with sliding side panel.
+-  Fully responsive layout for desktops, tablets, and smartphones.
+-  Easy-to-extend **Gallery** and **About** sections.
 
 ---
 
-## 🛠️ Tech Used
+##  Tech Used
 
 | Category           | Technology           | Description                                               |
 |--------------------|----------------------|-----------------------------------------------------------|
@@ -25,7 +25,7 @@ This React project to showcase LandScape photos which I click through my Lens (M
 | **Icons & Fonts**  | Custom / System Fonts | Gradient animated logo, hamburger icon, responsive text  |
 
 
-## 📂 File Structure
+##  File Structure
 
 ```
 LenScape/
@@ -50,9 +50,9 @@ LenScape/
 └── index.html
 ```
 
-## 🔍 Preview
+##  Preview
 
-> 🌄 Lenscape highlights stunning photo categories like:
+>  Lenscape highlights stunning photo categories like:
 - Astro & Night Photography
 - Nature & Macro Shots
 - Creative Edits
@@ -60,13 +60,13 @@ LenScape/
 
 ---
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 1. Clone the repo
 2. Run `npm install`
 3. Run `npm run dev` to start the app
 
-## 📌 To Do
+##  To Do
 
 - Add dynamic photo gallery content from API or CMS
 - Dark/light theme toggle
